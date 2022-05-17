@@ -8,9 +8,20 @@
 	align-items: center;
 	flex-direction: row;
 	align-content: center;
+	padding: 10px;
+	justify-content: space-evenly;
+    transition: all 1s;
+}
+.header:hover{
+ 	display: flex;
+	align-items: center;
+	flex-direction: row;
+	align-content: center;
 	padding: 30px;
+	justify-content: space-evenly;
 }
 .body{
+	background-image: linear-gradient(to left, #4314A9, black);
 	height: 100vh;
 	display: flex;
     align-items: center;
@@ -31,13 +42,16 @@
 	align-self: flex-end;
 }
 #productos{
-	max-width: 40vh;
-	max-height: 40vh;
+	max-width: 30vh;
+	max-height: 30vh;
+	transition: all 0.5s;
 }
-.logo{
-	justify-self: flex-start;
+#productos:hover{
+	max-width: 35vh;
+	max-height: 35vh;
 }
 #logo{
+	justify-self: flex-start;
 	max-height: 10vh;
 }
 .menu{
